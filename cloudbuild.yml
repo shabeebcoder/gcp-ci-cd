@@ -1,7 +1,7 @@
 steps:
 - name: 'gcr.io/cloud-builders/docker'
   script: |
-    docker build -t us-central1-docker.pkg.dev/vibrant-crawler-222413/my-docker/quickstart-docker:lts .
+    docker build -t us-central1-docker.pkg.dev/vibrant-crawler-222413/my-docker/web-server:lts .
   automapSubstitutions: true
 images:
-- 'us-central1-docker.pkg.dev/vibrant-crawler-222413/my-docker/quickstart-docker:lts'
+- 'us-central1-docker.pkg.dev/vibrant-crawler-222413/my-docker/web-server:lts'
